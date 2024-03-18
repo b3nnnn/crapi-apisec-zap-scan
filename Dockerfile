@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -q -y --fix-missing \
 USER 1000
 
 COPY config .
+COPY scan.sh . 
 COPY entrypoint.sh .
 COPY swagger.json .
 COPY torrc /etc/tor/
