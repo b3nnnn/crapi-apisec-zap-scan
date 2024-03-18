@@ -28,4 +28,3 @@ echo "proxy started and check suceeded."
 
 # Do the scan
 zap-api-scan.py -z "-config network.connection.httpProxy.port=8118 -config network.connection.httpProxy.host=localhost -config network.connection.httpProxy.enabled=true" -t /zap/swagger.json -f openapi
-sleep infinity
