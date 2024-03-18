@@ -1,2 +1,2 @@
 #!/bin/sh
-timeout 360 /zap/scan.sh
+timeout 660 /zap/scan.sh
